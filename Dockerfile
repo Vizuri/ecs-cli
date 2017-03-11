@@ -1,6 +1,6 @@
 FROM alpine:3.4
 MAINTAINER Doug Toppin <dtoppin@vizuri.com>
-LABEL org.label-schema.vcs-url="https://github.com/Vizuri/docker-infinispan-example"
+LABEL org.label-schema.vcs-url="https://github.com/Vizuri/ecs-cli"
 LABEL org.label-schema.description="AWS ecs-cli, run with -v ~/.aws:/root/.aws -v ~/.ecs:/root/.ecs"
 
 RUN apk update && apk add ca-certificates && update-ca-certificates
